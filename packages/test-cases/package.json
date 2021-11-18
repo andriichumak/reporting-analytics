@@ -1,0 +1,16 @@
+{
+  "name": "test-cases",
+  "version": "1.0.0",
+  "description": "A set of dummy test cases to generate jUnit reports",
+  "scripts": {
+    "test": "wdio"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^7.16.8",
+    "@wdio/junit-reporter": "^7.16.6",
+    "@wdio/local-runner": "^7.16.6",
+    "@wdio/mocha-framework": "^7.16.6",
+    "wdio-json-reporter": "^3.0.0"
+  },
+  "private": true
+}

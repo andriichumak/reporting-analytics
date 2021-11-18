@@ -1,0 +1,16 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "A server that receives jUnit reports, parses them and saves to the database",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-form-data": "^2.0.17",
+    "pg": "^8.7.1",
+    "xml2js": "^0.2.8"
+  }
+}

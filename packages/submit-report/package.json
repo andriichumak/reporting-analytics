@@ -1,0 +1,15 @@
+{
+  "name": "submit-report",
+  "version": "1.0.0",
+  "description": "A CLI tool to gather and submit jUnit reports to server",
+  "main": "index.js",
+  "dependencies": {
+    "commander": "^7.2.0",
+    "form-data-encoder": "^1.5.1",
+    "formdata-node": "^4.0.1",
+    "glob": "^7.1.7",
+    "node-fetch": "^2.6.1",
+    "simple-git": "^2.45.0"
+  },
+  "private": true
+}
