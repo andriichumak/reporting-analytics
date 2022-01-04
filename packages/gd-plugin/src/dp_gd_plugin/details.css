@@ -1,0 +1,13 @@
+.details-list {
+	line-height: 1;
+	text-align: left;
+	margin-top: 0;
+}
+
+.details-list dt:not(:first-of-type) {
+	margin-top: .6em;
+}
+
+.details-list dt {
+	font-weight: 500;
+}
